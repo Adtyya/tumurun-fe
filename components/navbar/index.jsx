@@ -36,9 +36,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav id="wrapper" className="w-full h-auto">
+    <nav id="wrapper" className="w-full h-auto py-3.5">
       <div className="w-full h-full max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row items-center relative lg:justify-between py-1.5">
+        <div className="flex flex-col lg:flex-row items-center relative lg:justify-between">
           <div>
             <div className="w-44 h-20 relative">
               <Image
@@ -61,7 +61,7 @@ export default function Navbar() {
               open ? "h-72 max-h-72" : "h-0"
             } duration-300 lg:h-auto px-3`}
           >
-            <div className="flex space-x-2.5 items-center justify-end mb-1.5">
+            <div className="flex space-x-2.5 items-center justify-end mb-2.5">
               <ButtonTransparent className="flex space-x-2.5 items-center">
                 <AiOutlineShopping className="text-2xl text-black" />
                 <Paragraph additional="font-medium">Shop</Paragraph>
