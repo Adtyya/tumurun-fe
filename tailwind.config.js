@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: "#AC0A6D",
         cGray: "#15171A",
+        cPink: "#CE2B7F",
       },
       height: {
         super: "30rem",

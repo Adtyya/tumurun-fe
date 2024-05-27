@@ -16,7 +16,7 @@ function HeadingTwo({ children, className = "", ...props }) {
 
 function HeadingThree({ children, className = "", ...props }) {
   return (
-    <h3 className={`${className} text-xl lg:text-2xl`} {...props}>
+    <h3 className={`${className} text-lg lg:text-xl`} {...props}>
       {children}
     </h3>
   );
