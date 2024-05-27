@@ -1,6 +1,7 @@
 import Banner from "@/components/view/homepage/banner";
 import Discover from "@/components/view/homepage/discover";
 import ExploreTumurun from "@/components/view/homepage/explore";
+import PlanVisit from "@/components/view/homepage/planVisit";
 import Event from "@/components/view/homepage/showAndEvent";
 import { getBanner } from "@/services/homepage";
 
@@ -14,6 +15,7 @@ export default async function Home() {
       <Discover />
       <ExploreTumurun />
       <Event />
+      <PlanVisit />
     </>
   );
 }
