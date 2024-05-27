@@ -13,7 +13,6 @@ import {
 import { useState } from "react";
 
 export default function Banner({ list }) {
-  console.log(list);
   const [isPlay, setPlay] = useState(false);
   return (
     <div className="w-full h-[41rem] relative">
@@ -71,7 +70,7 @@ export default function Banner({ list }) {
                 </button>
               </div>
               <div className="group py-2.5">
-                <button className="bg-cGray p-2 text-white text-2xl relative">
+                <div className="bg-cGray p-2 text-white text-2xl relative">
                   <MdInfoOutline />
                   <div className="absolute opacity-0 invisible group-hover:visible group-hover:opacity-100 -top-36 right-0 bg-cGray duration-200">
                     <div className="w-64 text-start h-auto p-3 space-y-1.5">
@@ -83,7 +82,7 @@ export default function Banner({ list }) {
                       </button>
                     </div>
                   </div>
-                </button>
+                </div>
               </div>
             </div>
           </div>
