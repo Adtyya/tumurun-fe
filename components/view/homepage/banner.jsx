@@ -52,15 +52,15 @@ export default function Banner({ list }) {
                     <p>Last entry: 20.15</p>
                   </div>
                   <ButtonPrimary className="flex space-x-2.5 items-center">
-                    <Paragraph additional="!text-white font-semibold">
-                      Booking Ticket
+                    <Paragraph additional="!text-white">
+                      Booking Tiket
                     </Paragraph>
                     <FiChevronRight className="text-lg text-white" />
                   </ButtonPrimary>
                 </div>
               </div>
             </div>
-            <div className="flex h-60 w-full lg:w-max items-end justify-end space-x-5">
+            <div className="hidden lg:flex h-60 w-full lg:w-max items-end justify-end space-x-5">
               <div className="py-2.5">
                 <button
                   className="bg-cGray p-2 text-white text-2xl"

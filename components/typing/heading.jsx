@@ -1,4 +1,4 @@
-function HeadingOne({ children, className, ...props }) {
+function HeadingOne({ children, className = "", ...props }) {
   return (
     <h1 className={`${className} text-3xl lg:text-4xl`} {...props}>
       {children}
@@ -6,7 +6,7 @@ function HeadingOne({ children, className, ...props }) {
   );
 }
 
-function HeadingTwo({ children, className, ...props }) {
+function HeadingTwo({ children, className = "", ...props }) {
   return (
     <h2 className={`${className} text-2xl lg:text-3xl`} {...props}>
       {children}
@@ -14,7 +14,7 @@ function HeadingTwo({ children, className, ...props }) {
   );
 }
 
-function HeadingThree({ children, className, ...props }) {
+function HeadingThree({ children, className = "", ...props }) {
   return (
     <h3 className={`${className} text-xl lg:text-2xl`} {...props}>
       {children}
